@@ -11,8 +11,9 @@ end
 
 def first_method_reverse_each_word(array)
   nuarray = []
-  array.map! do |element|
-    element.reverse
+  array.split(" ")
+  array.collect do |word|
+    word.reverse
   end 
 array.join(" ")
 end 
