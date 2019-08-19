@@ -9,4 +9,3 @@ def reverse_each_word(string)
  end
  new_string
 end
-reverse_each_word("Hello there nice person")
