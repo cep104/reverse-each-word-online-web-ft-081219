@@ -7,3 +7,7 @@ sentence.split(" ").collect do |word| #itterate using collect
 end
 reversed_array.join(" ") #turn the array back into a string
 end
+#another way to do it:
+# def reverse_each_word(sentence)
+#     sentence.split.collect {|word| word.reverse}.join(" ")
+#   end
